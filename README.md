@@ -1,6 +1,6 @@
 Discord token cracker using [2captcha.com]
 
-> get your captcha key at: https://2captcha.com
+> get your captcha key at: https://2captcha.com\n
 > run with : `python main.py`
 > proxyless
 
