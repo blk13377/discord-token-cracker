@@ -19,7 +19,7 @@ def getCookies():
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
         }
 
-        response = requests.get('https://discord.com/api/v9/experiments', headers=headers)
+        response = requests.get('https://discord.com/api/v9/experiments', headers = headers)
         return response.cookies, response.json().get("fingerprint")
 
         
